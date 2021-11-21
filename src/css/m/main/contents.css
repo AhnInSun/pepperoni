@@ -1,0 +1,15 @@
+.contents {
+    padding-top: 100px;
+}
+
+.main__banner img {
+    height: 30vh;
+}
+
+.main__banner-msg {
+    font-size: 1.3em;
+    padding-top: 5vh;
+    text-align: center;
+    line-height: 2em;
+}
+

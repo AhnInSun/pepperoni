@@ -1,0 +1,51 @@
+.container{
+    max-width:900px;
+    margin:auto;
+  }
+  
+  #inked-painted { 
+    position: relative;
+    font-size: 0; 
+    -ms-touch-action: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+  }
+  
+  #inked-painted img { 
+    width: 100%;
+    height: auto; 
+  }
+  
+  #colored { 
+    background-image: url(https://codyhouse.co/demo/image-comparison-slider/img/img-original.jpg);
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 50%;
+    background-size: cover; 
+  }
+  
+  #inked-painted:hover {
+    cursor: col-resize; 
+  }
+
+  .compare__date, .compare__date-wrap {
+    width: 100%;
+    margin:10px auto;
+    display: flex;
+  }
+
+  .compare__left, .compare__right, .compare__date-btn {
+    flex:1;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .compare__date-wrap {
+    margin-top: 20px;
+  }
+
+  .compare__date-btn {
+    border: 1px solid gray;
+    margin: 0px 1.5%;
+  }

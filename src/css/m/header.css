@@ -32,12 +32,27 @@
     height: 5vw;
 }
 
+.gnb__btn--write {
+    right: 40px;
+    right: 4.16667vw;
+    width: 40px;
+    width: 5.20833vw;
+    height: 38.4px;
+    height: 5vw;
+}
+
 .gnb__btn--menu .gnb__anchor {
     display: inline-block;
     width: 100%;
     height: 100%;
     background: url(../../img/m-icon-menu.svg) center no-repeat;
     background-size: 100% auto;
+}
+
+.gnb__btn--write .gnb__anchor {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 .gnb__anchor {
@@ -51,7 +66,7 @@
     bottom: 0;
     margin: auto;
     font-size: 0;
-    text-indent: -9999px;
+    /* text-indent: -9999px; */
 }
 
 .wide-banner {
